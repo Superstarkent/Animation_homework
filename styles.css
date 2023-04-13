@@ -1,0 +1,204 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+font-family: 'Source Sans Pro';
+font-size: 18px;
+letter-spacing: 1px;
+}
+
+header {
+padding: 20px 0;
+}
+
+.Header_content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list_items {
+    display: flex;
+    width: 100%;
+    
+    
+}
+/*Animations for nav bar*/
+
+.member {
+    transition: 0.5s;
+}
+
+.member:hover {
+    box-shadow: 0 0 3px black;
+    margin-bottom: -10px;
+}
+
+.features {
+    transition: 0.5s;
+}
+
+.features:hover {
+    box-shadow: 0 0 3px black;
+    margin-bottom: -10px;
+}
+
+.style {
+    transition: 0.5s;
+}
+
+.style:hover {
+    box-shadow: 0 0 3px black;
+    margin-bottom: -10px;
+}
+
+.newsletter {
+    transition: 0.5s;
+}
+
+.newsletter:hover {
+    box-shadow: 0 0 3px black;
+    margin-bottom: -10px;
+}
+
+.contact {
+    transition: 0.5s;
+}
+
+.contact:hover {
+    box-shadow: 0 0 3px black;
+    margin-bottom: -10px;
+}
+
+.get {
+    transition: 0.5s;
+}
+
+.get:hover {
+    box-shadow: 0 0 3px black;
+    margin-bottom: -10px;
+}
+
+.signin {
+    transition: 0.5s;
+}
+
+.signin:hover {
+    box-shadow: 0 0 3px black;
+    margin-bottom: -10px;
+}
+
+
+
+
+.Header_content h2 {
+    color: #D14D72;
+}
+
+.Header_content ul li {
+    list-style-type: none;
+}
+
+.Header_content ul li a {
+    text-decoration: none;
+    padding: 20px;
+    color: #D14D72;
+}
+
+button {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 1px 3px #000000;
+    -moz-box-shadow: 0px 1px 3px #000000;
+    box-shadow: 0px 1px 3px #000000;
+    font-family: Arial;
+    color: #D14D72;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 0px 4px 0px 4px;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  button:hover {
+    box-shadow: 0 0 3px black;
+    margin-bottom: -10px;
+}
+  button:hover {
+    background: #2fc445;
+    text-decoration: none;
+  }
+
+  #pinned {
+    display: grid;
+    grid-template-columns: auto repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 20px;
+
+  }
+
+  .pinned_item_content {
+    background-image: url(images/interior.jpg);
+    background-size: 100%;
+    grid-row: 1 / span 2;
+    grid-column: 1;
+    padding: 170px;
+    color: white;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    }
+  
+    .pinned_item_content:hover {
+    margin-top: -10px;
+    box-shadow: 0 0 3px black;
+
+
+    }
+
+    .second_pinned_item {
+        background-image: url(images/kitchen-interior-design-cost.jpg);
+        background-size: 100%;
+        padding: 40px;
+        color: white;
+        font-size: 15px;
+        background-repeat: no-repeat;
+
+    }
+
+    .third_pinned_item {
+        background-image: url(images/image.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: white;
+        font-size: 15px;
+        padding: 40px;
+    }
+
+    .fourth_pinned_item {
+        background-image: url(images/dodo.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: white;
+        font-size: 15px;
+        padding: 40px;
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .fifth_pinned_item {
+        background-image: url(images/dodo.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: white;
+        font-size: 15px;
+        padding: 40px;
+        grid-row: 2;
+        grid-column: 3;
+    }
