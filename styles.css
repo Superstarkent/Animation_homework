@@ -125,10 +125,6 @@ button {
   }
 
   button:hover {
-    box-shadow: 0 0 3px black;
-    margin-bottom: -10px;
-}
-  button:hover {
     background: #2fc445;
     text-decoration: none;
   }
@@ -156,21 +152,29 @@ button {
     }
   
     .pinned_item_content:hover {
+        
     margin-top: -10px;
-    box-shadow: 0 0 3px black;
+    box-shadow: 0 0 3px black; 
 
 
     }
 
     .second_pinned_item {
         background-image: url(images/kitchen-interior-design-cost.jpg);
-        background-size: 100%;
+        background-size: 110%;
         padding: 40px;
         color: white;
         font-size: 15px;
         background-repeat: no-repeat;
+        transition: 0.5s;
 
     }
+
+    .second_pinned_item:hover {
+        margin-top: -10px;
+        box-shadow: 0 0 3px black;
+    
+     }
 
     .third_pinned_item {
         background-image: url(images/image.png);
@@ -179,26 +183,47 @@ button {
         color: white;
         font-size: 15px;
         padding: 40px;
+        transition: 0.5s;
     }
+
+    .third_pinned_item:hover {
+        margin-top: -10px;
+        box-shadow: 0 0 3px black;
+    
+     }
 
     .fourth_pinned_item {
         background-image: url(images/dodo.png);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 140%;
         color: white;
         font-size: 15px;
         padding: 40px;
         grid-row: 2;
         grid-column: 2;
+        transition: 0.5s;
     }
+
+    .fourth_pinned_item:hover {
+        margin-top: -10px;
+        box-shadow: 0 0 3px black;
+    
+     }
 
     .fifth_pinned_item {
         background-image: url(images/dodo.png);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 140%;
         color: white;
         font-size: 15px;
         padding: 40px;
         grid-row: 2;
         grid-column: 3;
+        transition: 0.5s;
     }
+
+    .fifth_pinned_item:hover {
+        margin-top: -10px;
+        box-shadow: 0 0 3px black;
+    
+     }
